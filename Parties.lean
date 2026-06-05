@@ -13,22 +13,22 @@ import ContractModel.Definitions
 
 -- contractual capacity (SECTION 1)
 
--- A two-party contract requires both parties to have legal capacity.
--- Without capacity on both sides, the agreement is not fully enforceable.
+-- two-party contract requires both parties to have legal capacity.
+-- without capacity on both sides, the agreement is not fully enforceable.
 def two_party_enforceable (a : Agreement) (p1 p2 : Party) : Prop :=
   valid_contract a ∧ p1.hasCapacity ∧ p2.hasCapacity
 
--- If a two-party agreement is enforceable, the underlying contract is valid.
+-- if a two-party agreement is enforceable, the underlying contract is valid.
 theorem enforceable_implies_valid
     (a : Agreement) (p1 p2 : Party)
     (h : two_party_enforceable a p1 p2) :
     valid_contract a :=
   h.1
 
--- A minor lacks legal capacity, so any contract they enter is not fully
+-- a minor (< 18 in most) lacks legal capacity, so any contract they enter is not fully
 -- enforceable against them. If a party is a minor, two_party_enforceable
 -- cannot hold, because a minor's hasCapacity must be false.
--- We model this by assuming isMinor implies ¬hasCapacity.
+-- we model this by assuming isMinor implies ¬hasCapacity.
 theorem minor_not_enforceable
     (a : Agreement) (p1 p2 : Party)
     (hMinor : p1.isMinor)
