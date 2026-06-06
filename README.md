@@ -22,7 +22,7 @@ best for: structural reasoning - lean, rapid instantaneous checks - Z3
 
 a detailed written analysis of these tradeoffs are are included in the written component.
 
-## theorems proven:
+## THEOREMS PROVEN:
 
 here is a selective list of the various different theorems proven and verified in this project:
 -void and voidable contracts and mutually excl.
