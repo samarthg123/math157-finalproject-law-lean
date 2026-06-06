@@ -1,4 +1,4 @@
-# math 157 final project - by samarth ghodke
+# MATH 157 - FINAL PROJECT by SAMARTH GHODKE
 welcome! this is the README file for my MATH 157 final project, integrating foundational contract-law principles with formal verification in Lean and comparing it with Z3 which is implemented in Python. The project demonstrates how mathematical logic can be applied to encode and analyze legal structures.
 
 a key observation was that Lean proved things actively (engaging with user, intermediate goals), whereas Z3 would check automatically. 
