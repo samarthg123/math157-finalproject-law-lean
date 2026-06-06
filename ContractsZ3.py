@@ -17,6 +17,7 @@ MAKE SURE PYTHON3 IS INSTALLED TO RUN THE Z3.
 
 if this does not work for some reason (unlikely), backup: try to run it on a venv (virtual environment on an earlier python version)
 
+terminal command you would run in that scenario on your IDE:
 ex. source .venv_z3/bin/activate
     python3 contractsz3.py
 
