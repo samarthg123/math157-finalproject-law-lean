@@ -1,6 +1,6 @@
 """
-contractsz3.py
-
+contractsz3.py by samarth ghodke // math 157 final project
+--------------- *
 this file contains the Z3 encoding of the contract model, including definitions of parties, agreements, and contracts,
 as well as theorems about their properties. The code is structured to mirror the Lean 
 formalization in Parties.lean, with adjustments for Z3's syntax and capabilities.
@@ -12,6 +12,13 @@ in my written analysis as per the project rubric and requirements.
 
 
 ** dependencies to install: pip install z3-solver==4.13.3.0
+
+MAKE SURE PYTHON3 IS INSTALLED TO RUN THE Z3.
+
+if this does not work for some reason (unlikely), backup: try to run it on a venv (virtual environment on an earlier python version)
+
+ex. source .venv_z3/bin/activate
+    python3 contractsz3.py
 
 ^ *** note *** ensure to use this specific version because on newer versions of z3-solver, the API may have changed and the code might not work as intended.
 
