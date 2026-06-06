@@ -3,6 +3,16 @@ welcome! this is the README file for my MATH 157 final project, integrating foun
 
 a key observation was that Lean proved things actively (engaging with user, intermediate goals), whereas Z3 would check automatically. 
 
+## WHERE TO BEGIN
+
+- Definitions.lean : basically where the core definitions/data structures (agreement, party, contractType, etc.)
+- Validity.lean : main Lean thms, void/voidable contracts, duress, statute of frauds
+- Parties.lean : capacity, minors, bilateral vs. unilateral
+- Breach.lean : breach conditions and novation theorems
+- ContractsZ3.py : run this with Python and you will see automated verification of the same theorem
+- ContractValidity.lean : early draft with valid/invalid contract examples
+
+
 ## INSTALLATION INSTRUCTIONS
 
 dependency installation instructions are written in ContractsZ3.py. as a reminder, ensuring Python3 (or version of Python) is installed will help to see how the .py file works in comparison to the .lean files.
