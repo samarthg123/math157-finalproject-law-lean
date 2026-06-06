@@ -25,14 +25,14 @@ a detailed written analysis of these tradeoffs are are included in the written c
 ## THEOREMS PROVEN:
 
 here is a selective list of the various different theorems proven and verified in this project:
--void and voidable contracts and mutually excl.
--duress (no mutual assent) negates validity
--voidable contract is currently valid
--oral contract fails statute of frauds enforceability
--minor lacking capacity form an enforceable contract
--performance and breach are mutually excl.
--breach presupposes a valid contract (must have been valid for there to have been an official breach)
--novation needs consent from all parties (requires original contract to be valid)
+*void and voidable contracts and mutually excl.
+*duress (no mutual assent) negates validity
+*voidable contract is currently valid
+*oral contract fails statute of frauds enforceability
+*minor lacking capacity form an enforceable contract
+*performance and breach are mutually excl.
+*breach presupposes a valid contract (must have been valid for there to have been an official breach)
+*novation needs consent from all parties (requires original contract to be valid)
 
 
 
